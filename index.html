@@ -10,19 +10,23 @@
         /* * {
             font-family: sans-serif;
         } */
+        body header nav table thead th a {
+            /* text-decoration: none; */
+            font-weight: normal;
+        }
     </style>
 </head>
 <body>
     <header>
         <nav>
-            <table align="center" width="95%"><br>
+            <table border="1" align="center" width="100%"><br>
                 <thead>
-                <td><a href="#dadosPessoais">Meus dados</a></td>
-                <td><a href="#apresentacao">Apresentação</a></td>
-                <td><a href="#formacao">Formação</a></td>
-                <td><a href="#experiencias">Experiências profissionais</a></td>
-                <td><a href="#cursos">Cursos e certificações</a></td>
-                <td><a href="muvie.html" target="_blank">Vídeo de Apresentação</a></td>
+                <th align="center"><a href="#dadosPessoais">Meus dados</a></th>
+                <th align="center"><a href="#apresentacao">Apresentação</a></th>
+                <th align="center"><a href="#formacao">Formação</a></th>
+                <th align="center"><a href="#experiencias">Experiências profissionais</a></th>
+                <th align="center"><a href="#cursos">Cursos e certificações</a></th>
+                <th align="center"><a href="muvie.html" target="_blank">Vídeo de Apresentação</a></th>
                 </thead>
             </table>
         </nav><br>
@@ -31,14 +35,14 @@
         <table border="1" width="100%">
             <tbody>
                 <tr>
-                    <td colspan="2" width="75%" bgcolor="gainsboro">
+                    <td colspan="2" width="70%" bgcolor="gainsboro">
                         <section id="dadosPessoais">
                             <h1>Toupeira Alcantara</h1>
                             <p>Telefone: (66) 88899-9988</p>
                             <p>E-mail: toupeirinha@mail.com</p>
                         </section>
                     </td>
-                    <td bgcolor="gainsboro" width="100%"><!--Foto-->
+                    <td bgcolor="gainsboro" height="200px" width="100x"><!--Foto-->
                         <img src="https://static.escolakids.uol.com.br/2022/02/toupeira-saindo-do-solo.jpg" alt="Imagem da toupeira" width="100%" height="100%"><!--width="250px" height="180px"-->
                     </td>
                 </tr>
@@ -51,7 +55,6 @@
                             A ideia e mostrar, em poucas palavras, que voce e o profissional perteito para desempenhar a funcao a que
                             esta se candicalando</p>
                         </section>
-
                     </td>
                     <td rowspan="4" height="" valign="top" bgcolor="gainsboro"><!--Skills-->
                         <aside>
@@ -68,6 +71,7 @@
                 </tr>
                 <tr>
                     <td colspan="2" ><!--Formação acadêmica-->
+                        <hr>
                         <section id="formacao">
                             <h2>Formação acadêmica</h2>
                             <h4>MBA em Gestão de sistemas</h4>
@@ -79,13 +83,13 @@
                             <p>
                             Instituição de ensino: Universidade da Cultura Brasileira 
                             <br>Ano de formação: 2020
+                            </p>
                         </section>
-
-                        </p>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2" ><!--Experiências profissionais-->
+                        <hr>
                         <section id="experiencias">
                             <article>
                                 <h2>Experiências profissionais</h2>
@@ -117,6 +121,7 @@
                 </tr>
                 <tr>
                     <td colspan="2" ><!--Cursos e certificações-->
+                        <hr>
                         <section id="cursos">
                             <article>
                                 <h2>Cursos e certificações</h2>
@@ -151,15 +156,15 @@
                             <td width="50%"> <!--rowspan="2"-->
                                 <div>
                                     <label for="nome">Nome</label><br>
-                                    <input type="text" id="nome" name="nome" placeholder="Escreva o seu nome">
+                                    <input type="text" id="nome" name="nome" placeholder="Escreva o seu nome" size="74">
                                 </div>
                                 <div>
                                     <label for="email">E-mail</label><br>
-                                    <input type="email" id="email" name="email" placeholder="Seu melhor e-mail">
+                                    <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" size="74">
                                 </div>
                                 <div>
                                     <label for="tel">Telefone</label><br>
-                                    <input type="tel" id="tel" name="tel" placeholder="Seu telefone">
+                                    <input type="tel" id="tel" name="tel" placeholder="Seu telefone" size="74">
                                 </div>
                             </td>
                             <td width="50%">
