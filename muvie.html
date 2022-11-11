@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,13 +11,31 @@
             margin: 0 auto;
             width: 500px;
             padding: 2em;
+            background-image: url(./assets/img/img-ia2.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+            font-family: 'VT323', monospace;
+            color: red;
+            font-size: 18px;
+            min-height: 100vh;
+        }
+
+        body div h1 {
+            margin: 0 0 0 150px;
+            padding-top: 30px;
+            padding-bottom: 20px;
         }
     </style>
 </head>
+
 <body>
-    <h1>Meu vídeo</h1>
+    <div>
+        <h1>Meu vídeo</h1>
+    </div>
     <main>
-        <video controls preload="metadata" poster="./assets/img/img-ia.png"width="400px">
+        <video controls preload="metadata" poster="./assets/img/img-ia.png" width="500px">
             <source src="./assets/movies/jorge.mp4" type="video/mp4">
             <p>Este navegador é incompatível, favor utilize outro</p>
 
@@ -24,4 +43,5 @@
         </video>
     </main>
 </body>
+
 </html>
