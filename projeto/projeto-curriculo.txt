@@ -1,0 +1,10 @@
+Critérios
+- A estrutura da página deve ser criada utilizando tabelas;
+- Deve-se utilizar as tags semânticas onde possível, como por exemplo, a tag nav para a nav bar, aside e footer em seus respectivos locais;
+- Na barra de navegação deve ser utilizado hipelinks para navegar dentro da própria página, o hiperlink de Vídeo de apresentação, deve abrir uma nova tab no navegador e nesta nova página deve conter o seu vídeo de apresentação utilizando legenda;
+- (Vídeo que tenha entre 0:30 e 1 minutos);
+- Para os links de baixar certificados, deve adicionar um hiperlink com o atributo que habilita esta opção;
+- Na sua lista de skills, utilizar a lista não ordenada do HTML;
+- Para os campos do formulário, utilizar o atributo para informar o tamanho dos campos;
+- Este formulário deve enviar os dados para o endpoint de teste da W3C (https://www.w3schools.com/action_page.php);
+- A mensagem do formulário não deve ultrapassar 300 caracteres.
